@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/swcrc",
+  "isModule": true,
+  "jsc": {
+    "baseUrl": ".",
+    "externalHelpers": true,
+    "loose": true,
+    "parser": {
+      "decorators": true,
+      "dynamicImport": true,
+      "syntax": "typescript",
+      "tsx": true
+    },
+    "target": "es2017",
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    }
+  },
+  "module": {
+    "noInterop": true,
+    "type": "es6"
+  },
+  "sourceMaps": true
+}
