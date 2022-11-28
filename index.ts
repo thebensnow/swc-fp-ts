@@ -1,3 +1,3 @@
-import {useDataLoader} from './api'
+import {useDataLoader} from '@scripts/api'
 
 useDataLoader()

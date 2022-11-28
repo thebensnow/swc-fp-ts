@@ -19,7 +19,6 @@
     }
   },
   "module": {
-    "noInterop": true,
     "type": "es6"
   },
   "sourceMaps": true
