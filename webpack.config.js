@@ -9,9 +9,14 @@ module.exports = {
     rules: [
       {
         test: /\.ts/,
-        exclude: /node_modules/,
         loader: "swc-loader"
       }
     ]
+  },
+  resolve: {
+    extensions: [".ts", ".js"]
+  },
+  stats: {
+    errorDetails: true
   }
 }
