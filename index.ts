@@ -9,7 +9,12 @@ pipe(
   )
 );
 
-export const apiFn = () => {
+export const apiFn = <E, A>(valA: E, valB: A) => {
+  if(typeof valA === "number" && typeof valB === "number"){
+    console.log("both numbers")
+  } else {
+    console.log("not both numbers")
+  }
   pipe(
     E.right("test"),
     E.fold(
@@ -19,4 +24,4 @@ export const apiFn = () => {
   );
 }
 
-apiFn();
+apiFn(1, 2);

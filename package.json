@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "bnt": "yarn build && yarn test",
     "build": "webpack --config webpack.config.js",
     "test": "node dist/output.js"
   },
