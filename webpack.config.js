@@ -1,6 +1,7 @@
 module.exports = {
   entry: './index.ts',
   mode: 'development',
+  devtool: "source-map",
   output: {
     filename: 'output.js'
   },
